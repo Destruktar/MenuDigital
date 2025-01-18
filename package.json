@@ -1,0 +1,33 @@
+{
+  "name": "menudigital",
+  "version": "1.0.0",
+  "description": "Menu Digital para restaurante",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Destruktar/MenuDigital.git"
+  },
+  "keywords": [
+    "Menu",
+    "Digital",
+    "restaurante"
+  ],
+  "author": "Damian Arrieta @damianarrieta96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Destruktar/MenuDigital/issues"
+  },
+  "homepage": "https://github.com/Destruktar/MenuDigital#readme",
+  "dependencies": {
+    "npm": "^11.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.4"
+  }
+}
