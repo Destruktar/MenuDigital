@@ -2,11 +2,7 @@
 @use 'base/mixins' as m;
 @use 'sass:color';
 
-h1,
-p,
-a {
-    color: v.$white;
-}
+
 
 .header-contenedor {
     background-color: v.$soft-black;
@@ -15,6 +11,10 @@ a {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    p{
+        color: v.$white;
     }
 
 }
@@ -29,6 +29,8 @@ a {
         font-size: 5rem;
         margin: 0 auto;
         text-align: center;
+        color: v.$white;
+
 
         @include m.tablet {
             font-size: 15rem;
