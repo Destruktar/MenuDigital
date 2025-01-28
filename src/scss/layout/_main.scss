@@ -1,0 +1,24 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.carta{
+
+    h2{
+        max-width: 95%;
+        padding: 1rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+        border: 3px solid v.$soft-black;
+        border-radius: 5rem;
+        font-family: v.$titulos;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+
+        @include m.tablet{
+            width: 45rem;
+        }
+
+    }
+}

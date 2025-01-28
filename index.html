@@ -7,6 +7,7 @@
     <title>Menú Digital</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -46,7 +47,7 @@
         </div>
     </header>
     <main class="contenedor">
-        <div class="contenedor carta">
+        <div class="carta contenedor">
             <h2>Menú</h2>
             <section class="carta__categoria">
                 <h3>Cafetería</h3>
@@ -324,12 +325,14 @@
                     <li>
                         <span class="name">Lomo Completo al Plato con Ensalada</span>
                         <span class="price">$9500</span>
-                        <p class="description">Bife de lomo + feta de queso y jamón + huevo + ensalada de lechuga tomate y huevo</p>
+                        <p class="description">Bife de lomo + feta de queso y jamón + huevo + ensalada de lechuga tomate
+                            y huevo</p>
                     </li>
                     <li>
                         <span class="name">Lomo Completo al PLato con Papas Fritas</span>
                         <span class="price">$10500</span>
-                        <p class="description">Bife de lomo + feta de queso y jamón + huevo + porción de papas fritas</p>
+                        <p class="description">Bife de lomo + feta de queso y jamón + huevo + porción de papas fritas
+                        </p>
                     </li>
                     <li>
                         <span class="name">Medallones de Pollo x2</span>
@@ -474,7 +477,7 @@
 
             <section class="carta__categoria">
                 <h3>Tablas <span>(Solo noche)</span></h3>
-                <ul>
+                <ul class="menu__lista">
                     <li>
                         <span class="name">Tabla para 1</span>
                         <span class="price">$13900</span>
@@ -516,71 +519,488 @@
 
             <section class="carta__categoria">
                 <h3>Copetín</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
+                <ul class="menu__lista">
+                    <li>
+                        <span class="name">Maní, Papita Copetín, Palitos x1 Cazuela</span>
+                        <span class="price">$1000</span>
+                    </li>
+                    <li>
+                        <span class="name">Aceitunas x8</span>
+                        <span class="price">$1500</span>
+                    </li>
+                    <li>
+                        <span class="name">Fiambre Cazuela</span>
+                        <span class="price">$2000</span>
+                    </li>
                 </ul>
             </section> <!--Copetin-->
 
             <section class="carta__categoria">
                 <h3>Pizzas (Solo noche)</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
+                <ul class="menu__lista">
+                    <li>
+                        <span class="name">Pizza Cláscia</span>
+                        <span class="price">$8500</span>
+                        <p class="description">Salsa de tomate con cebolla, queso/muzzarella, orégano y aceitunas.</p>
+                    </li>
+                    <li>
+                        <span class="name">Pizza Napolitana</span>
+                        <span class="price">$9900</span>
+                        <p class="description">Salsa de tomate con cebolla, queso/muzzarella, tomate, orégano y
+                            aceitunas.</p>
+                    </li>
+                    <li>
+                        <span class="name">Pizza Fugazzeta</span>
+                        <span class="price">$9900</span>
+                        <p class="description">Salsa de tomate con cebolla, queso/muzzarella, cebolla, orégano y
+                            aceitunas.</p>
+                    </li>
+                    <li>
+                        <span class="name">Pizza de Anchoas</span>
+                        <span class="price">$9900</span>
+                        <p class="description">Salsa de tomate con cebolla, queso/muzzarella, anchoas, orégano y
+                            aceitunas.</p>
+                    </li>
+                    <li>
+                        <span class="name">Pizza Especial</span>
+                        <span class="price">$9900</span>
+                        <p class="description">Salsa de tomate con cebolla, queso/muzzarella, jamon, huevo, pimiento,
+                            orégano y aceitunas.</p>
+                    </li>
+                    <li>
+                        <span class="name">Pizza Roquefort</span>
+                        <span class="price">$9900</span>
+                        <p class="description">Salsa de tomate con cebolla, queso/muzzarella, queso roquefort, orégano y
+                            aceitunas.</p>
+                    </li>
+                    <li>
+                        <span class="name">Pizza Mixta</span>
+                        <span class="price">$11900</span>
+                        <p class="description">Combinación de dos o más variedades.</p>
+                    </li>
                 </ul>
             </section> <!--Pizzas-->
 
             <section class="carta__categoria">
                 <h3>Menú Infantil</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
+                <ul class="menu__lista">
+                    <li>
+                        <span class="name">Cajita Magnolia</span>
+                        <span class="price">$9900</span>
+                    </li>
+                    <li>
+                        <span class="name">Milanesa (Sola)</span>
+                        <span class="price">$4900</span>
+                    </li>
+                    <li>
+                        <span class="name">Milanesa con Papas Fritas</span>
+                        <span class="price">$6300</span>
+                    </li>
+                    <li>
+                        <span class="name">Patitas x8</span>
+                        <span class="price">$5900</span>
+                    </li>
+                    <li>
+                        <span class="name">Hamburguesa (Pan, Hamburguesa y queso)</span>
+                        <span class="price">$5900</span>
+                    </li>
+                    <li>
+                        <span class="name">Papas Fritas (Canasto)</span>
+                        <span class="price">$3500</span>
+                    </li>
+                    <li>
+                        <span class="name">Patitas x8 + Papas Fritas (Canasto)</span>
+                        <span class="price">$9500</span>
+                    </li>
                 </ul>
             </section> <!--Infantil-->
 
             <section class="carta__categoria">
                 <h3>Postres</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
+                <ul class="menu__lista">
+                    <li>
+                        <span class="name">Helado 1 Bocha</span>
+                        <span class="price">$2500</span>
+                    </li>
+                    <li>
+                        <span class="name">Helado 2 Bochas</span>
+                        <span class="price">$3500</span>
+                    </li>
+                    <li>
+                        <span class="name">Durazno al Natural</span>
+                        <span class="price">$3500</span>
+                    </li>
+                    <li>
+                        <span class="name">Coctel de Frutas</span>
+                        <span class="price">$3900</span>
+                    </li>
+                    <li>
+                        <span class="name">Coctel de Frutas con Helado</span>
+                        <span class="price">$5900</span>
+                    </li>
+                    <li>
+                        <span class="name">Tarta en Taza</span>
+                        <span class="price">$4900</span>
+                    </li>
+                    <li>
+                        <span class="name">Affogato</span>
+                        <span class="price">$3900</span>
+                    </li>
+                    <li>
+                        <span class="name">Casata</span>
+                        <span class="price">$1800</span>
+                    </li>
+                    <li>
+                        <span class="name">Copa Magnolia</span>
+                        <span class="price">$5900</span>
+                    </li>
+                    <li>
+                        <span class="name">Bombón Escocés</span>
+                        <span class="price">$2800</span>
+                    </li>
+                    <li>
+                        <span class="name">Batido Helado</span>
+                        <span class="price">$3900</span>
+                    </li>
+                    <li>
+                        <span class="name">Budín de Pan (Consultar Disp.)</span>
+                        <span class="price">$2900</span>
+                    </li>
+                    <li>
+                        <span class="name">Flan/Postre (Consultar Disp.)</span>
+                        <span class="price">$1500</span>
+                    </li>
                 </ul>
             </section> <!--Postres-->
 
             <section class="carta__categoria">
                 <h3>Bebidas</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
-                </ul>
-            </section> <!--Bebidas-->
+                <div class="carta__menu">
+                    <h4>Agua</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Agua 500cc.</span>
+                            <span class="price">$1500</span>
+                        </li>
+                        <li>
+                            <span class="name">Agua 1.5 lt.</span>
+                            <span class="price">$2500</span>
+                        </li>
+                        <li>
+                            <span class="name">Agua 2 lt.</span>
+                            <span class="price">$3000</span>
+                        </li>
+                        <li>
+                            <span class="name">Soda Sifón</span>
+                            <span class="price">$1300</span>
+                        </li>
+                    </ul>
+                </div> <!--Aguas-->
 
-            <section class="carta__categoria">
-                <h3>Cervezas</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
-                </ul>
-            </section> <!--Cervezas-->
+                <div class="carta__menu">
+                    <h4>Agua Saborizada</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Agua Saborizada 500cc.</span>
+                            <span class="price">$2000</span>
+                        </li>
+                        <li>
+                            <span class="name">Agua Saborizada 1.5 lt. Levite</span>
+                            <span class="price">$3900</span>
+                        </li>
+                        <li>
+                            <span class="name">Agua Saborizada 1.5 lt. (Brio, Baggio)</span>
+                            <span class="price">$2900</span>
+                        </li>
+                    </ul>
+                </div> <!--Aguas Saborizadas-->
 
-            <section class="carta__categoria">
-                <h3>Vinos</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
-                </ul>
-            </section> <!--Vinos-->
+                <div class="carta__menu">
+                    <h4>Gaseosas</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Gaseosa 500cc.</span>
+                            <span class="price">$2000</span>
+                        </li>
+                        <li>
+                            <span class="name">Gaseosa 1.5 lt.</span>
+                            <span class="price">$3900</span>
+                        </li>
+                        <li>
+                            <span class="name">Gaseosa Vidrio 1.25 lt.</span>
+                            <span class="price">$4500</span>
+                        </li>
+                        <li>
+                            <span class="name">Gaseosa Lata</span>
+                            <span class="price">$1700</span>
+                        </li>
+                    </ul>
+                </div> <!--Gaseosas-->
 
-            <section class="carta__categoria">
-                <h3>Tragos</h3>
-                <ul>
-                    <!-- TODO: Llenar lista-->
-                </ul>
-            </section> <!--Tragos-->
+                <div class="carta__menu">
+                    <h4>Cervezas</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Lata 473cc.</span>
+                            <span class="price">$2500</span>
+                        </li>
+                        <li>
+                            <span class="name">Lata 0 Alcohol</span>
+                            <span class="price">$2500</span>
+                        </li>
+                        <li>
+                            <span class="name">Cerveza 1 lt.</span>
+                            <span class="price">$4900</span>
+                        </li>
+                        <li>
+                            <span class="name">Chopp</span>
+                            <span class="price">#3000</span>
+                        </li>
+                    </ul>
+                </div> <!--Cervezas-->
 
-            <section class="carta__categoria">
-                <div>
-                    <h3>Mocktails</h3>
-                    <p>(Cócteles Sin Alcohol)</p>
+                <div class="carta__menu">
+                    <h4>Aperitivos y Licores</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Whisky Medida</span>
+                            <span class="price">$2200</span>
+                        </li>
+                        <li>
+                            <span class="name">Gancia Medida</span>
+                            <span class="price">$1900</span>
+                        </li>
+                        <li>
+                            <span class="name">Gancia Vaso Ch.</span>
+                            <span class="price">$2800</span>
+                        </li>
+                        <li>
+                            <span class="name">Gancia Vaso Gr.</span>
+                            <span class="price">$3500</span>
+                        </li>
+                        <li>
+                            <span class="name">Gancia Jarra</span>
+                            <span class="price">$6300</span>
+                        </li>
+                        <li>
+                            <span class="name">Fernet Medida</span>
+                            <span class="price">$2500</span>
+                        </li>
+                        <li>
+                            <span class="name">Fernet Vaso Ch.</span>
+                            <span class="price">$3000</span>
+                        </li>
+                        <li>
+                            <span class="name">Fernet Vaso Gr.</span>
+                            <span class="price">$3900</span>
+                        </li>
+                        <li>
+                            <span class="name">Fernet Jarra</span>
+                            <span class="price">$6900</span>
+                        </li>
+                        <li>
+                            <span class="name">Cinzano Medida</span>
+                            <span class="price">$1900</span>
+                        </li>
+                        <li>
+                            <span class="name">Cinzano Vaso Ch.</span>
+                            <span class="price">$2800</span>
+                        </li>
+                        <li>
+                            <span class="name">Cinzano Vaso Gr.</span>
+                            <span class="price">$3500</span>
+                        </li>
+                        <li>
+                            <span class="name">Terma Medida</span>
+                            <span class="price">$1000</span>
+                        </li>
+                        <li>
+                            <span class="name">Terma Vaso Ch.</span>
+                            <span class="price">$1900</span>
+                        </li>
+                        <li>
+                            <span class="name">Legui Medida</span>
+                            <span class="price">$2200</span>
+                        </li>
+                        <li>
+                            <span class="name">Ginebra Medida</span>
+                            <span class="price">$2500</span>
+                        </li>
+                        <li>
+                            <span class="name">Granadina Medida</span>
+                            <span class="price">$1000</span>
+                        </li>
+                    </ul>
+                </div> <!--Aperitivos y Licores-->
+
+                <div class="carta__menu">
+                    <h4>Vinos</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Trapiche (Malbec)</span>
+                            <span class="price">$8500</span>
+                        </li>
+                        <li>
+                            <span class="name">Don David (Malbec)</span>
+                            <span class="price">$7500</span>
+                        </li>
+                        <li>
+                            <span class="name">Fond de Cave (Malbec)</span>
+                            <span class="price">$9500</span>
+                        </li>
+                        <li>
+                            <span class="name">Alma Mora (Malbec)</span>
+                            <span class="price">$6900</span>
+                        </li>
+                        <li>
+                            <span class="name">Elementos (Malbec)</span>
+                            <span class="price">$6500</span>
+                        </li>
+                        <li>
+                            <span class="name">Alaris (Malbec/Chardonnay)</span>
+                            <span class="price">$5900</span>
+                        </li>
+                        <li>
+                            <span class="name">Canciller</span>
+                            <span class="price">$5900</span>
+                        </li>
+                        <li>
+                            <span class="name">Fincas de las Moras (Sauvignon blanco)</span>
+                            <span class="price">$6900</span>
+                        </li>
+                        <li>
+                            <span class="name">Fincas de las Moras (Malbec)</span>
+                            <span class="price">$6900</span>
+                        </li>
+                        <li>
+                            <span class="name">Pato Criollo (Malbec)</span>
+                            <span class="price">$6900</span>
+                        </li>
+                        <li>
+                            <span class="name">Dadá (Malbec)</span>
+                            <span class="price">$6900</span>
+                        </li>
+                        <li>
+                            <span class="name">Suter (Malbec)</span>
+                            <span class="price">$4900</span>
+                        </li>
+                        <li>
+                            <span class="name">Estancia Mendoza</span>
+                            <span class="price">$5900</span>
+                        </li>
+                        <li>
+                            <span class="name">Finca Magnolia</span>
+                            <span class="price">$5900</span>
+                        </li>
+                    </ul>
+                </div> <!--Vinos-->
+
+                <div class="carta__menu">
+                    <h4>Tragos</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Mogul</span>
+                            <span class="price">$7900</span>
+                            <p class="description">Frutos rojos, smirnoff, red bull, sprite, gomitas.</p>
+                        </li>
+                        <li>
+                            <span class="name">Oceano Blue</span>
+                            <span class="price">$7900</span>
+                            <p class="description">Blue curacao, vodka, 7up, gomitas.</p>
+                        </li>
+                        <li>
+                            <span class="name">Rainbow Drink</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Granadina, jugo de naranja, blue curacao.</p>
+                        </li>
+                        <li>
+                            <span class="name">Playa</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Granadina, jugo de naranja, tequila.</p>
+                        </li>
+                        <li>
+                            <span class="name">Indigo</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Granadina, vodka, limón, blue curacao.</p>
+                        </li>
+                        <li>
+                            <span class="name">Tropical</span>
+                            <span class="price" $6900></span>
+                            <p class="description">Ron, jugo de naranja, 7up.</p>
+                        </li>
+                        <li>
+                            <span class="name">Mojito</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Ron blanco, 7up, limón, azúcar, menta.</p>
+                        </li>
+                        <li>
+                            <span class="name">Daiquiri Limón</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Ron, limón, azúcar.</p>
+                        </li>
+                        <li>
+                            <span class="name">Daiquiri Frutilla</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Ron, limón, azúcar, frutilla.</p>
+                        </li>
+                        <li>
+                            <span class="name">Gin Tonic</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Gin, agua tónica, limón.</p>
+                        </li>
+                        <li>
+                            <span class="name">Negroni</span>
+                            <span class="price">$6900</span>
+                            <p class="description">Campari, ginebra, cinzano, naranja.</p>
+                        </li>
+                    </ul>
                 </div>
-                <ul>
-                    <!-- TODO: Llenar lista-->
-                </ul>
-            </section> <!--Moktails-->
+
+                <div class="carta__menu">
+                    <h4>Moktails (sin alcohol)</h4>
+                    <ul class="menu__lista">
+                        <li>
+                            <span class="name">Mojito</span>
+                            <span class="price">$5900</span>
+                            <p class="description">7up, limón, azúcar, menta.</p>
+                        </li>
+                        <li>
+                            <span class="name">Ponche</span>
+                            <span class="price">$5900</span>
+                            <p class="description">7up, frutos rojos, gatorade.</p>
+                        </li>
+                        <li>
+                            <span class="name">Playa</span>
+                            <span class="price">$5900</span>
+                            <p class="description">Granadina, jugo de naranja, 7up.</p>
+                        </li>
+                        <li>
+                            <span class="name">Mogul</span>
+                            <span class="price">$5900</span>
+                            <p class="description">Frutos rojos, red bull(opcional), sprite, gomitas.</p>
+                        </li>
+                        <li>
+                            <span class="name">Daiquiri</span>
+                            <span class="price">$5900</span>
+                            <p class="description">Frutilla, agua, limón.</p>
+                        </li>
+                    </ul>
+                </div> <!--Moktails-->
+            </section> <!--Bebidas-->
         </div>
     </main>
+
+    <footer>
+        <p>2025 &copy;Magnolia Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/magnoliacaferesto/" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="https://wa.me/5493576521717" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div> <!--Redes sociales-->
+    </footer>
 </body>
 
 </html>
