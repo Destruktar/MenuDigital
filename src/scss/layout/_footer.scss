@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+.footer{
+    padding: 3rem;
+    background-color: v.$soft-black;
+
+    p{
+        color: v.$off-white;
+        text-align: center;
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+}

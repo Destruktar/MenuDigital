@@ -662,3 +662,18 @@ img {
   text-align: right;
   font-weight: 700;
 }
+
+.footer {
+  padding: 3rem;
+  background-color: #151515;
+}
+.footer p {
+  color: #f0f0f0;
+  text-align: center;
+}
+.footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+}
