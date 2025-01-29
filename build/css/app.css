@@ -382,19 +382,19 @@ img {
   display: block;
 }
 
-.header-contenedor {
+.header__contenedor {
   background-color: #151515;
 }
-.header-contenedor .title {
+.header__contenedor .header__title {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.header-contenedor p {
+.header__contenedor p {
   color: #ffffff;
 }
 
-.title h1 {
+.header__title h1 {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -405,22 +405,22 @@ img {
   color: #ffffff;
 }
 @media (min-width: 768px) {
-  .title h1 {
+  .header__title h1 {
     font-size: 15rem;
     letter-spacing: 0.5rem;
   }
 }
 @media (min-width: 1200px) {
-  .title h1 {
+  .header__title h1 {
     letter-spacing: 1.5rem;
   }
 }
-.title .header-superior {
+.header__title .header__superior {
   width: 95%;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  .title .header-superior {
+  .header__title .header__superior {
     display: flex;
     flex-direction: row;
     gap: 10rem;
@@ -428,12 +428,12 @@ img {
   }
 }
 @media (min-width: 1200px) {
-  .title .header-superior {
+  .header__title .header__superior {
     gap: 40rem;
   }
 }
 
-.slogan {
+.header__slogan {
   width: 95%;
   height: 6.7rem;
   display: flex;
@@ -442,125 +442,125 @@ img {
   gap: 1rem;
 }
 @media (min-width: 480px) {
-  .slogan {
+  .header__slogan {
     text-align: center;
   }
 }
 @media (min-width: 768px) {
-  .slogan {
+  .header__slogan {
     width: 43rem;
     height: 6.7rem;
     text-align: left;
   }
 }
-.slogan img {
+.header__slogan img {
   width: 4rem;
 }
 @media (min-width: 480px) {
-  .slogan img {
+  .header__slogan img {
     margin-left: 1rem;
   }
 }
 @media (min-width: 768px) {
-  .slogan img {
+  .header__slogan img {
     width: 7rem;
   }
 }
-.slogan p {
+.header__slogan p {
   width: 25rem;
   font-size: 2rem;
   font-weight: 400;
 }
 @media (min-width: 768px) {
-  .slogan p {
+  .header__slogan p {
     width: 35rem;
     font-size: 2.5rem;
     font-weight: 900;
   }
 }
 
-.adorno {
+.header__deco {
   width: 5rem;
   margin: 0 auto;
 }
 @media (min-width: 480px) {
-  .adorno {
+  .header__deco {
     margin: 0 auto;
   }
 }
 @media (min-width: 768px) {
-  .adorno {
+  .header__deco {
     width: 15rem;
   }
 }
 @media (min-width: 1200px) {
-  .adorno {
+  .header__deco {
     width: 20rem;
   }
 }
 
-.header-inferior {
+.header__inferior {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  .header-inferior {
+  .header__inferior {
     flex-direction: row;
     align-items: center;
     gap: 10rem;
   }
 }
 @media (min-width: 1200px) {
-  .header-inferior {
+  .header__inferior {
     gap: 40rem;
   }
 }
 
-.invitacion {
+.header__invitacion {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
 }
 @media (min-width: 768px) {
-  .invitacion {
+  .header__invitacion {
     margin-left: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  .invitacion {
+  .header__invitacion {
     margin-left: 10rem;
   }
 }
-.invitacion .invitacion-img {
+.header__invitacion .invitacion__img {
   width: 4rem;
 }
 @media (min-width: 768px) {
-  .invitacion .invitacion-img {
+  .header__invitacion .invitacion__img {
     width: 5rem;
   }
 }
-.invitacion p {
+.header__invitacion p {
   width: 25rem;
   font-weight: 400;
   font-size: 1.5rem;
 }
 @media (min-width: 480px) {
-  .invitacion p {
+  .header__invitacion p {
     width: 30rem;
   }
 }
 @media (min-width: 768px) {
-  .invitacion p {
+  .header__invitacion p {
     font-size: 2.5rem;
     width: 43rem;
     font-weight: 700;
   }
 }
 
-.boton {
+.header__boton {
   width: 15rem;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -570,23 +570,24 @@ img {
   transition: background-color 0.2s ease-in-out;
   transition: transform 0.3s ease-in-out;
 }
-.boton:hover {
+.header__boton:hover {
   background-color: #a8a8a8;
   transform: scale(1.1);
 }
 @media (min-width: 768px) {
-  .boton {
+  .header__boton {
     margin-bottom: 0;
     margin-right: 3rem;
   }
 }
-.boton a {
+.header__boton a {
   padding: 1rem;
   color: #151515;
 }
 
 .carta {
-  box-shadow: 0.3rem 0.3rem 0.5rem #151515;
+  padding: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem #151515;
 }
 .carta h2 {
   max-width: 95%;
