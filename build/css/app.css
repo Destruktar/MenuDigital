@@ -678,3 +678,7 @@ img {
   gap: 2rem;
   margin-top: 1.5rem;
 }
+
+.fab {
+  color: #f0f0f0;
+}
