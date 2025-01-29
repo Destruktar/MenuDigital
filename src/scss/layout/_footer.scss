@@ -11,8 +11,9 @@
 
     .social-media{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        gap: 2rem;
         margin-top: 1.5rem;
     }
 }
