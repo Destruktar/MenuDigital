@@ -1,14 +1,15 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+
 .carta{
+    box-shadow: .3rem .3rem .5rem v.$soft-black;
 
     h2{
         max-width: 95%;
         padding: 1rem;
-        margin: 0 auto;
-        margin-top: 4rem;
-        border: 3px solid v.$soft-black;
+        margin: 4rem auto;
+        border: 2px solid v.$soft-black;
         border-radius: 5rem;
         font-family: v.$titulos;
         text-align: center;
@@ -20,5 +21,47 @@
             width: 45rem;
         }
 
+    }
+}
+
+.carta__categoria{
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid v.$soft-black;
+
+    h3{
+        margin-top: 1.5rem;
+        padding: 1rem;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: underline;
+    }
+}
+
+.carta__menu{
+    border-bottom: 1px dotted v.$soft-black;
+
+    h4{
+        margin-left: 1rem;
+        text-decoration: underline;
+    }
+
+}
+
+.menu__lista li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .price{
+        margin-right: 1rem;
+        text-align: right;
+        font-weight: 700;
+    }
+
+    .description{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 700;
     }
 }

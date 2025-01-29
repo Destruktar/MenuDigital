@@ -334,6 +334,7 @@ body {
   font-style: normal;
   color: #000000;
   font-size: 2rem;
+  background-color: #f0f0f0;
 }
 
 p {
@@ -367,7 +368,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.7rem;
+  font-size: 3rem;
 }
 
 h4 {
@@ -584,12 +585,14 @@ img {
   color: #151515;
 }
 
+.carta {
+  box-shadow: 0.3rem 0.3rem 0.5rem #151515;
+}
 .carta h2 {
   max-width: 95%;
   padding: 1rem;
-  margin: 0 auto;
-  margin-top: 4rem;
-  border: 3px solid #151515;
+  margin: 4rem auto;
+  border: 2px solid #151515;
   border-radius: 5rem;
   font-family: "Montserrat", serif;
   text-align: center;
@@ -601,4 +604,41 @@ img {
   .carta h2 {
     width: 45rem;
   }
+}
+
+.carta__categoria {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #151515;
+}
+.carta__categoria h3 {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.carta__menu {
+  border-bottom: 1px dotted #151515;
+}
+.carta__menu h4 {
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.menu__lista li {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.menu__lista li .price {
+  margin-right: 1rem;
+  text-align: right;
+  font-weight: 700;
+}
+.menu__lista li .description {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
 }
