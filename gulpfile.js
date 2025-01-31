@@ -13,6 +13,9 @@ export function css(done) {
     done();
 }
 
-export function dev () {
+export function dev (done) {
     watch('src/scss/**/*.scss', css);
+
+    done();
+ 
 }
