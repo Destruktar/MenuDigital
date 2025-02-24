@@ -1,0 +1,6 @@
+[
+    {"nombre": "Carlitos (frio o tostado)", "precio": 4900, "descripcion": "Sandwich de miga de jamón y queso con papas de copetín"},
+    {"nombre": "Tostado común", "precio": 4900, "descripcion": "Pan de lomo, jamon y queso y papas de copetín"},
+    {"nombre": "Tostado de campo", "precio": 5500, "descripcion": "Pan de lomo, jamón y queso, lechuga, tomate con papas de copetín"},
+    {"nombre": "Tostado magnolia", "precio": 5500, "descripcion": "Pan francés, jamon y queso, lechuga, tomate con papas de copetín"}
+]

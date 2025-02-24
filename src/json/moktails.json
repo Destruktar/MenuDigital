@@ -1,0 +1,7 @@
+[
+    {"nombre": "Mojito", "precio": 5900, "descripcion": "7up, limón, azúcar, menta."},
+    {"nombre": "Ponche", "precio": 5900, "descripcion": "7up, frutos rojos, Gatorade."},
+    {"nombre": "Playa", "precio": 5900, "descripcion": "Granadina, jugo de naranja, 7up."},
+    {"nombre": "Mogul", "precio": 5900, "descripcion": "Frutos rojos, Red bull (opcional), Sprite, gomitas."},
+    {"nombre": "Daiquiri", "precio": 5900, "descripcion": "Frutilla, agua, limón"}
+]

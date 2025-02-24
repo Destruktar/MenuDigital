@@ -1,0 +1,16 @@
+{
+    "mixtas": [
+        {"nombre": "Tabla para 1", "precio": 16900},
+        {"nombre": "Tabla para 2", "precio": 22900},
+        {"nombre": "Tabla para 3-4", "precio": 35900},
+        {"nombre": "Tabla para 6-7", "precio": 47900},
+        {"tabla": "Tabla para 8-10", "precio": 59900}
+    ],
+    "calientes": [
+        {"nombre": "Tabla caliente para 1", "precio": 21900},
+        {"nombre": "Tabla caliente para 2", "precio": 30900},
+        {"nombre": "Tabla caliente para 3-4", "precio": 45900},
+        {"nombre": "Tabla caliente para 6-7", "precio": 59900},
+        {"nombre": "Tabla caliente para 8-10", "precio": 79900}
+    ]
+}
