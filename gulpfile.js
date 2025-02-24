@@ -1,8 +1,15 @@
-import { src, dest, watch } from 'gulp';
+import { src, dest, watch, series } from 'gulp';
 import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 
 const sass = gulpSass(dartSass);
+
+export function js(done) {
+
+    src('src/js/**/*.js')
+        .pipe(dest('build/js'));
+    done();
+}
 
 export function css(done) {
 
@@ -13,9 +20,12 @@ export function css(done) {
     done();
 }
 
-export function dev (done) {
+export function dev(done) {
     watch('src/scss/**/*.scss', css);
+    watch('src/js/**/*.js', js);
 
     done();
- 
+
 }
+
+export default series(css, js, dev);
