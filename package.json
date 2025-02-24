@@ -1,11 +1,11 @@
 {
   "name": "menudigital",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Menu Digital para restaurante",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp dev"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,4 @@
+[
+    {"nombre": "Tradicional", "precio": 4500, "descripcion": "Café con leche + 2 tostadas o 2 criollos + 2 cazuelas a elección (mermelada, manteca, dulce de leche, queso crema) o 2 medialunas + jugo de naranja"},
+    {"nombre": "Americano", "precio": 5900, "descripcion": "Café con leche + 3 tostadas o 2 criollos + 1 cazuela con jamón + 1 cazuela con queso + jugo de naranja + cazuela de palta + yogurt"}
+]

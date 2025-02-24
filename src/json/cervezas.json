@@ -1,0 +1,24 @@
+{
+    "quilmes": [
+        {"nombre": "Lata 473 cc", "precio": 2900 },
+        {"nombre": "Botella 1 lt", "precio": 5100},
+        {"nombre": "Lata 0 alcohol", "precio": 2500}
+    ],
+    "brahama": [
+        {"nombre": "Lata 473 cc", "precio": 2500},
+        {"nombre": "Botella 1 lt", "precio": 5100}
+    ],
+    "miller": [
+        {"nombre": "Lata 473 cc", "precio": 2500}
+    ],
+    "santafe" : [
+        {"nombre": "Lata 473 cc", "precio": 2500},
+        {"nombre": "Botella 1 lt", "precio": 4900}
+    ],
+    "heineken": [
+        {"nombre": "Botella 1 lt", "precio": 7900}
+    ],
+    "chop": [
+        {"nombre": "Chop", "precio": 3900}
+    ]
+}

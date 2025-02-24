@@ -1,0 +1,22 @@
+[
+        {"nombre": "Café chico", "precio": 1500},
+        {"nombre": "Café jarro", "precio": 1800},
+        {"nombre": "Café con leche", "precio": 2000},
+        {"nombre": "Submarino grande", "precio": 2500},
+        {"nombre": "Submarino chico", "precio": 1500},
+        {"nombre": "Té/Mate cocido", "precio": 1500},
+        {"nombre": "Infusión con leche", "precio": 1800},
+        {"nombre": "Leche", "precio": 1300},
+        {"nombre": "Capuchino chico", "precio": 1500},
+        {"nombre": "Capuchino grande", "precio": 2500},
+        {"nombre": "Medailuna", "precio": 700},
+        {"nombre": "Mafalda", "precio": 300},
+        {"nombre": "Criollo", "precio": 500},
+        {"nombre": "Dona (consultar dips)", "precio": 1300},
+        {"nombre": "Pastelito (consultar disp)", "precio": 500},
+        {"nombre": "Tostadas x2", "precio": 700},
+        {"nombre": "Torta porción", "precio": 1500},
+        {"nombre": "Tarta porción", "precio": 2000},
+        {"nombre": "Pasta frola", "precio": 1500},
+        {"nombre": "Budín porción", "precio": 1900}
+]

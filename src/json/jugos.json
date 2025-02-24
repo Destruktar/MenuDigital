@@ -1,0 +1,9 @@
+[
+    {"nombre": "Jugo de naranja grande", "precio": 4200},
+    {"nombre": "Jugo de naranja chico", "precio": 2900},
+    {"nombre": "Licuado de banana", "precio": 4200},
+    {"nombre": "Licuado de frutilla", "precio": 4200},
+    {"nombre": "Licuado de durazno", "precio": 4200},
+    {"nombre": "Licuado vaso chico", "precio": 2900},
+    {"nombre": "Batido (leche + helado, consultar variedad)", "precio": 4200}
+]
