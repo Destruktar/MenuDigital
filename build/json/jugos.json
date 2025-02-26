@@ -5,5 +5,5 @@
     {"nombre": "Licuado de frutilla", "precio": 4200},
     {"nombre": "Licuado de durazno", "precio": 4200},
     {"nombre": "Licuado vaso chico", "precio": 2900},
-    {"nombre": "Batido (leche + helado, consultar variedad)", "precio": 4200}
+    {"nombre": "Batido", "precio": 4200, "descripcion": "leche + helado, consultar variedad."}
 ]

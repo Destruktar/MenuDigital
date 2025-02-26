@@ -2,95 +2,34 @@
 @use 'base/mixins' as m;
 
 
-.carta {
-    padding: 1rem;
-    box-shadow: .2rem .2rem .5rem v.$soft-black;
-
-    h2 {
-        max-width: 95%;
-        padding: 1rem;
-        margin: 4rem auto;
-        border: 2px solid v.$soft-black;
-        border-radius: 5rem;
-        font-family: v.$titulos;
-        text-align: center;
-        font-size: 4rem;
-        font-weight: 700;
-        letter-spacing: 0.5rem;
-
-        @include m.tablet {
-            width: 45rem;
-        }
-
-    }
-}
-
-.carta__categoria {
-    width: 95%;
-    margin: 0 auto;
-    border: 1px solid v.$soft-black;
-
-    h3 {
-        margin-top: 1.5rem;
-        padding: 1rem;
-        font-weight: 700;
-        text-align: center;
-        text-decoration: underline;
-    }
-}
-
-.carta__menu {
-    border-bottom: 1px dotted v.$soft-black;
-
-    h4 {
-        margin-left: 1rem;
-        text-decoration: underline;
-    }
-
-
-
-}
-
-.menu__lista {
-    padding-inline-start: 0;
-    margin: 0 auto;
-    list-style-type: none;
-
-}
-
-.menu__lista li {
+.nombre-precio {
+    margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    margin: 1rem 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
     width: 100%;
 
-    .lista__info{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
+    .nombre {
+        font-weight: normal;
+        font-size: 1.7rem;
     }
 
-  
+    .linea {
+        flex-grow: 1;
+        border-bottom: 1px dashed gray;
+    }
 
-    .description {
-        padding: 0;
-        margin-top: 1rem;
-        font-size: 1rem;
-        font-weight: 700;
+    .precio {
+        font-weight: bold;
+        font-size: 1.7rem;
+        white-space: nowrap;
     }
 }
 
-.lista__info {
-
-    .name {
-        font-size: 1.5rem;
-    }
-
-    .price {
-        margin-right: 1rem;
-        text-align: right;
-        font-weight: 700;
-    }
+.descripcion {
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.2rem;
 }

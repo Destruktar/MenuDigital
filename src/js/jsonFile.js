@@ -41,6 +41,7 @@ export class JsonFile {
             item.classList.add('plato');
 
             let nombrePrecio = document.createElement('P');
+            nombrePrecio.classList.add('nombre-precio');
             nombrePrecio.innerHTML = `
                 <span class="nombre">${plato.nombre}</span>
                 <span class="linea"></span>
