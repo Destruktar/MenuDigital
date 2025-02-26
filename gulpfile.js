@@ -11,6 +11,13 @@ export function js(done) {
     done();
 }
 
+export function json (done){
+    src('src/json/**/*.json')
+        .pipe(dest('build/json'));
+    
+    done();
+}
+
 export function css(done) {
 
     src('src/scss/app.scss')
@@ -22,10 +29,11 @@ export function css(done) {
 
 export function dev(done) {
     watch('src/scss/**/*.scss', css);
+    watch('src/json/**/*.json', json);
     watch('src/js/**/*.js', js);
 
     done();
 
 }
 
-export default series(css, js, dev);
+export default series(css, json, js, dev);
