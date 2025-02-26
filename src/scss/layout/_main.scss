@@ -1,7 +1,29 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+.main__title {
+    margin-top: 3rem;
+    text-align: center;
+}
 
+.main__category {
+
+    .main__category__title {
+        width: 80%;
+        padding: 1rem;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        border: 1px solid #333;
+        border-radius: 5rem;
+    }
+
+    .platillos {
+        margin-bottom: 3rem;
+    }
+}
 .nombre-precio {
     margin-bottom: 1rem;
     display: flex;
