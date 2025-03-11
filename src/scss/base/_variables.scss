@@ -1,9 +1,19 @@
-
+@font-face {
+  font-family: "KENAO";
+  src: url('/src/fuentes/Kenao.eot');
+  src: url('/src/fuentes/Kenao.eot?#iefix') format('embedded-opentype'),
+       url('/src/fuentes/Kenao.woff2') format('woff2'),
+       url('/src/fuentes/Kenao.woff') format('woff'),
+       url('/src/fuentes/Kenao.svg#KENAO') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 //Fuentes
-$titulos : "Montserrat", serif;
+$titulos : "KENAO", sans-serif;
 $frases : "Arimo", serif;
-$fuentePrincial: "Public Sans", serif;
+$fuentePrincial: "Arial", serif;
+$categorias: "Josefin Slab", serif;
 
 /*
         --- USOS ---

@@ -307,6 +307,13 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "KENAO";
+  src: url("/src/fuentes/Kenao.eot");
+  src: url("/src/fuentes/Kenao.eot?#iefix") format("embedded-opentype"), url("/src/fuentes/Kenao.woff2") format("woff2"), url("/src/fuentes/Kenao.woff") format("woff"), url("/src/fuentes/Kenao.svg#KENAO") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /*
         --- USOS ---
     font-family: "Public Sans", serif;
@@ -329,7 +336,7 @@ html {
 }
 
 body {
-  font-family: "Public Sans", serif;
+  font-family: "Arial", serif;
   font-optical-sizing: auto;
   font-style: normal;
   color: #000000;
@@ -395,7 +402,7 @@ img {
 }
 
 .header__title h1 {
-  font-family: "Montserrat", serif;
+  font-family: "KENAO", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
@@ -403,11 +410,11 @@ img {
   margin: 0 auto;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.5rem;
 }
 @media (min-width: 768px) {
   .header__title h1 {
     font-size: 15rem;
-    letter-spacing: 0.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -586,14 +593,17 @@ img {
 }
 
 .main__title {
-  margin-top: 3rem;
-  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
 }
 
 .main__category .main__category__title {
   width: 80%;
   padding: 1rem;
   margin: 0 auto;
+  font-family: "Josefin Slab", serif;
   font-size: 1.5rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -619,7 +629,7 @@ img {
 }
 .nombre-precio .linea {
   flex-grow: 1;
-  border-bottom: 1px dashed gray;
+  border-bottom: 2px dotted gray;
 }
 .nombre-precio .precio {
   font-weight: bold;

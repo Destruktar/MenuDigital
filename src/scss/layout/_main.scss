@@ -2,8 +2,10 @@
 @use 'base/mixins' as m;
 
 .main__title {
-    margin-top: 3rem;
-    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .main__category {
@@ -12,6 +14,7 @@
         width: 80%;
         padding: 1rem;
         margin: 0 auto;
+        font-family: v.$categorias;
         font-size: 1.5rem;
         font-weight: 400;
         text-transform: uppercase;
@@ -39,7 +42,7 @@
 
     .linea {
         flex-grow: 1;
-        border-bottom: 1px dashed gray;
+        border-bottom: 2px dotted gray;
     }
 
     .precio {

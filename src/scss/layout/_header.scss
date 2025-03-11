@@ -30,11 +30,11 @@
         margin: 0 auto;
         text-align: center;
         color: v.$white;
+        letter-spacing: 0.5rem;
 
 
         @include m.tablet {
             font-size: 15rem;
-            letter-spacing: 0.5rem;
         }
 
         @include m.desktop {

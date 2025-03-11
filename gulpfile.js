@@ -18,6 +18,7 @@ export function json (done){
     done();
 }
 
+
 export function css(done) {
 
     src('src/scss/app.scss')
@@ -36,4 +37,4 @@ export function dev(done) {
 
 }
 
-export default series(css, json, js, dev);
+export default series(fonts, css, json, js, dev);
