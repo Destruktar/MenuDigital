@@ -2,24 +2,20 @@
     "Aguas": [
 
         {"nombre": "Agua 500 cc", "precio": 1500},
-        {"nombre": "Agua 1.5 lt", "precio": 2800},
-        {"nombre": "Agua 2 lt", "precio": 3200},
+        {"nombre": "Agua 1.5 lt", "precio": 2500},
+        {"nombre": "Agua 2 lt", "precio": 3000},
         {"nombre": "Soda sifón", "precio": 1300}
     ],
     "Aguas-saborizadas": [
         {"nombre": "Agua saborizada 500 cc (consultar variedad)", "precio": 2000},
         {"nombre": "Agua saborizada 1.5 lt levite", "precio": 3900},
-        {"nombre": "Agua saborizada 1.5 lt (Brio, Baggio)", "precio": 3500},
-        {"nombre": "Soda saborizada", "precio": 1500}
+        {"nombre": "Agua saborizada 1.5 lt (Brio, Baggio)", "precio": 2900}
     ],
     "gaseosas": [
         {"nombre": "Gaseosa 500 cc", "precio": 2000},
         {"nombre": "Gaseosa 1.5 lt", "precio": 3900},
         {"nombre": "Gaseosa vidrio 1.5 lt", "precio": 4900},
-        {"nombre": "Gaseosa lata", "precio": 1900}
-    ],
-    "energizante": [
-        {"nombre": "Red bull", "precio": 2500}
+        {"nombre": "Gaseosa lata", "precio": 1700}
     ]
 
 }

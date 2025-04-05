@@ -1,6 +1,6 @@
 {
     "quilmes": [
-        {"nombre": "Lata 473 cc", "precio": 2900 },
+        {"nombre": "Lata 473 cc", "precio": 2500 },
         {"nombre": "Botella 1 lt", "precio": 5100},
         {"nombre": "Lata 0 alcohol", "precio": 2500}
     ],

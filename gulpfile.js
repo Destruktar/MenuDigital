@@ -37,4 +37,4 @@ export function dev(done) {
 
 }
 
-export default series(fonts, css, json, js, dev);
+export default series(css, json, js, dev);

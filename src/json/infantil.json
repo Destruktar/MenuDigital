@@ -1,9 +1,9 @@
 [
     {"nombre": "Cajita Magnolia", "precio": 9900},
-    {"nombre": "Milanesa (sola)", "precio": 4900},
-    {"nombre": "Milanesas con papas fritas", "precio": 6300},
-    {"nombre": "Patitas x8", "precio": 5900},
-    {"nombre": "Hamburguesa (pan, amburguesa, queso)", "precio": 5900},
+    {"nombre": "Milanesa (sola)", "precio": 6500},
+    {"nombre": "Milanesas con papas fritas", "precio": 7500},
+    {"nombre": "Patitas x8", "precio": 7000},
+    {"nombre": "Hamburguesa", "precio": 6500, "descripcion": "Pan, Hamburguesa, queso."},
     {"nombre": "Papas fritas (canasto)", "precio": 3500},
     {"nombre": "Patitas x8 + papas fritas (canasto)", "precio": 9500}
 ]
