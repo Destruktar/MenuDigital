@@ -1,13 +1,15 @@
 [
     {"nombre": "Mogul", "precio": 7900, "descripcion": "Frutos rojos, Smirnoff, Red bull, Sprite, gomitas."},
+    {"nombre": "Martini", "precio": 7900, "descripcion": "Ginebra, vermut"},
+    {"nombre": "Baileys", "precio": 7900, "descripcion": "Baileys, café, hielo"},
     {"nombre": "Oceano blue", "precio": 7900, "descripcion": "Blue curacao, Vodka, 7up, gomitas."},
-    {"nombre": "Rainbow Drink", "precio": 6900, "descripcion": "Granadina, jugo de naranja, Blue curacao."},
-    {"nombre": "Playa", "precio": 6900, "descripcion": "Granadina, jugo de naranja, gomitas."},
-    {"nombre": "Indigo", "precio": 6900, "descripcion": "Granadina, Vodka, limón, Blue curacao."},
-    {"nombre": "Tropical", "precio": 6900, "descripcion": "Ron, jugo de naranja, 7up."},
-    {"nombre": "Mojito", "precio": 6900, "descripcion": "Ron blanco, 7up, limón, azúcar, menta."},
-    {"nombre": "Daiquiri limón", "precio": 6900, "descripcion": "Ron, limón, azúcar."},
-    {"nombre": "Daiquiri frutilla", "precio": 6900, "descripcion": "Ron, frutilla, azúcar."},
-    {"nombre": "Gin Tonic", "precio": 6900, "descripcion": "Gin, agua tónica, limón."},
-    {"nombre": "Negroni", "precio": 6900, "descripcion": "Campari, Ginebra, cinzano, naranja."}
+    {"nombre": "Rainbow Drink", "precio": 7900, "descripcion": "Granadina, jugo de naranja, Blue curacao."},
+    {"nombre": "Playa", "precio": 7900, "descripcion": "Granadina, jugo de naranja, gomitas."},
+    {"nombre": "Indigo", "precio": 7900, "descripcion": "Granadina, Vodka, limón, Blue curacao."},
+    {"nombre": "Tropical", "precio": 7900, "descripcion": "Ron, jugo de naranja, 7up."},
+    {"nombre": "Mojito", "precio": 7900, "descripcion": "Ron blanco, 7up, limón, azúcar, menta."},
+    {"nombre": "Daiquiri limón", "precio": 7900, "descripcion": "Ron, limón, azúcar."},
+    {"nombre": "Daiquiri frutilla", "precio": 7900, "descripcion": "Ron, frutilla, azúcar."},
+    {"nombre": "Gin Tonic", "precio": 7900, "descripcion": "Gin, agua tónica, limón."},
+    {"nombre": "Negroni", "precio": 7900, "descripcion": "Campari, Ginebra, cinzano, naranja."}
 ]

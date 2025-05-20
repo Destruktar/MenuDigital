@@ -1,27 +1,26 @@
 {
     "whisky": [
-        {"nombre": "Medida", "precio": 2200}
+        {"nombre": "Medida", "precio": 3000}
     ],
     "gancia": [
-        {"nombre": "Medida", "precio": 1900},
-        {"nombre": "Vaso ch", "precio": 2800},
-        {"nombre": "Vaso gr", "precio": 3300},
-        {"nombre": "Jarra", "precio": 6300}
+        {"nombre": "Medida", "precio": 2000},
+        {"nombre": "Vaso ch", "precio": 3000},
+        {"nombre": "Vaso gr", "precio": 5000},
+        {"nombre": "Jarra", "precio": 8000}
     ],
     "fernet": [
         {"nombre": "Medida", "precio": 2500},
-        {"nombre": "Vaso ch", "precio": 3000},
-        {"nombre": "Vaso gr", "precio": 3900},
-        {"nombre": "Jarra", "precio": 6900}
+        {"nombre": "Vaso ch", "precio": 3500},
+        {"nombre": "Vaso gr", "precio": 5000},
+        {"nombre": "Jarra", "precio": 8000}
     ],
     "cinzano": [
-        {"nombre": "Medida", "precio": 1900},
-        {"nombre": "Vaso ch", "precio": 2800},
-        {"nombre": "Vaso gr", "precio": 3500}
+        {"nombre": "Medida", "precio": 2000},
+        {"nombre": "Vaso ch", "precio": 3000},
+        {"nombre": "Vaso gr", "precio": 4000}
     ],
     "terma": [
-        {"nombre": "Medida", "precio": 1600},
-        {"nombre": "Vaso ch", "precio": 1900}
+        {"nombre": "Medida", "precio": 1600}
     ],
     "legui":[
         {"nombre": "Medida", "precio": 2200}

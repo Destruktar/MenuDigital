@@ -1,24 +1,24 @@
 {
     "quilmes": [
-        {"nombre": "Lata 473 cc", "precio": 2500 },
-        {"nombre": "Botella 1 lt", "precio": 5100},
-        {"nombre": "Lata 0 alcohol", "precio": 2500}
+        {"nombre": "Lata 473 cc", "precio": 2800 },
+        {"nombre": "Botella 1 lt", "precio": 5500},
+        {"nombre": "Lata 0 alcohol", "precio": 2800}
     ],
     "brahama": [
-        {"nombre": "Lata 473 cc", "precio": 2500},
-        {"nombre": "Botella 1 lt", "precio": 5100}
+        {"nombre": "Lata 473 cc", "precio": 2800},
+        {"nombre": "Botella 1 lt", "precio": 5500}
     ],
-    "miller": [
-        {"nombre": "Lata 473 cc", "precio": 2500}
+    "budweiser": [
+        {"nombre": "Botella 1 lt", "precio": 2900}
+    ],
+    "stella Artois": [
+        {"nombre": "Botella 1 lt", "precio": 8900}
+    ],
+    "corona": [
+        {"nombre": "Corona 330 cc", "precio": 4200}
     ],
     "santafe" : [
-        {"nombre": "Lata 473 cc", "precio": 2500},
-        {"nombre": "Botella 1 lt", "precio": 4900}
-    ],
-    "heineken": [
-        {"nombre": "Botella 1 lt", "precio": 7900}
-    ],
-    "chop": [
-        {"nombre": "Chop", "precio": 3900}
+        {"nombre": "Lata 473 cc", "precio": 2800},
+        {"nombre": "Botella 1 lt", "precio": 5100}
     ]
 }
