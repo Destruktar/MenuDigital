@@ -5,7 +5,7 @@
     "gancia": [
         {"nombre": "Medida", "precio": 2000},
         {"nombre": "Vaso ch", "precio": 3000},
-        {"nombre": "Vaso gr", "precio": 5000},
+        {"nombre": "Vaso gr", "precio": 4000},
         {"nombre": "Jarra", "precio": 8000}
     ],
     "fernet": [
