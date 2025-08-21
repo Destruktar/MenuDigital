@@ -1,16 +1,16 @@
 [
-    {"nombre": "Trapiche (Malbec)", "precio": 9500},
+    {"nombre": "Trapiche (Malbec)", "precio": 11500},
     {"nombre": "Don David (Malbec)", "precio": 10500},
     {"nombre": "Fond de cave (Malbec)", "precio": 10500},
-    {"nombre": "Alma mora (Malbec)", "precio": 7900},
-    {"nombre": "Elementos (Malbec)", "precio": 7900},
-    {"nombre": "Alaris (Malbec/Chardonnay)", "precio": 6500},
-    {"nombre": "Canciller", "precio": 5900},
-    {"nombre": "Fincas las moras (Sauvignon blanc)", "precio": 6900},
-    {"nombre": "Fincas las moras (Malbec)", "precio": 6900},
-    {"nombre": "Pacto criollo (Malbec)", "precio": 7900},
-    {"nombre": "Dada (Malbec)", "precio": 7900},
-    {"nombre": "Suter", "precio": 5900},
-    {"nombre": "Estancia Mendoza", "precio": 5900},
-    {"nombre": "Finca Magnolia", "precio": 6900}
+    {"nombre": "Alma mora (Malbec)", "precio": 9500},
+    {"nombre": "Elementos (Malbec)", "precio": 9500},
+    {"nombre": "Alaris (Malbec/Chardonnay)", "precio": 7900},
+    {"nombre": "Canciller", "precio": 6900},
+    {"nombre": "Fincas las moras (Sauvignon blanc)", "precio": 7900},
+    {"nombre": "Fincas las moras (Malbec)", "precio": 7900},
+    {"nombre": "Pacto criollo (Malbec)", "precio": 8900},
+    {"nombre": "Dada (Malbec)", "precio": 8900},
+    {"nombre": "Suter", "precio": 6900},
+    {"nombre": "Estancia Mendoza", "precio": 6900},
+    {"nombre": "Finca Magnolia", "precio": 10900}
 ]

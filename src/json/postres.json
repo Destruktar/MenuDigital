@@ -1,15 +1,15 @@
 [
-    {"nombre": "Helado 1 bocha", "precio": 2900},
-    {"nombre": "Helado 2 bocha", "precio": 3900},
+    {"nombre": "Helado 1 bocha", "precio": 3200},
+    {"nombre": "Helado 2 bocha", "precio": 4200},
     {"nombre": "Durazno al natural", "precio": 3900},
-    {"nombre": "Coctel de fruta", "precio": 3900},
-    {"nombre": "Coctel de fruta con helado", "precio": 5900},
-    {"nombre": "Tarta en taza", "precio": 4900},
-    {"nombre": "Afogato", "precio": 3900},
-    {"nombre": "Casata", "precio": 2200},
-    {"nombre": "Copa Magnolia", "precio": 5900},
-    {"nombre": "Bombon escocés", "precio": 2900},
-    {"nombre": "Batido helado", "precio": 4900},
-    {"nombre": "Budín de pan", "precio": 2900, "descripcion": "Consultar disponibilidad."},
-    {"nombre": "Flan/postre", "precio": 2500, "descripcion": "Consultar disponibilidad."}
+    {"nombre": "Coctel de fruta", "precio": 4200},
+    {"nombre": "Coctel de fruta con helado", "precio": 6200},
+    {"nombre": "Tarta en taza", "precio": 5500},
+    {"nombre": "Afogato", "precio": 4200},
+    {"nombre": "Casata", "precio": 2500},
+    {"nombre": "Copa Magnolia", "precio": 7000},
+    {"nombre": "Bombon escocés", "precio": 3000},
+    {"nombre": "Batido helado", "precio": 5500},
+    {"nombre": "Budín de pan", "precio": 3500, "descripcion": "Consultar disponibilidad."},
+    {"nombre": "Flan/postre", "precio": 2900, "descripcion": "Consultar disponibilidad."}
 ]

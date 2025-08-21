@@ -3,16 +3,16 @@
         {"nombre": "Medida", "precio": 3000}
     ],
     "gancia": [
-        {"nombre": "Medida", "precio": 2000},
+        {"nombre": "Medida", "precio": 2500},
         {"nombre": "Vaso ch", "precio": 3000},
         {"nombre": "Vaso gr", "precio": 4000},
-        {"nombre": "Jarra", "precio": 8000}
+        {"nombre": "Jarra", "precio": 7500}
     ],
     "fernet": [
-        {"nombre": "Medida", "precio": 2500},
-        {"nombre": "Vaso ch", "precio": 3500},
+        {"nombre": "Medida", "precio": 3000},
+        {"nombre": "Vaso ch", "precio": 3800},
         {"nombre": "Vaso gr", "precio": 5000},
-        {"nombre": "Jarra", "precio": 8000}
+        {"nombre": "Jarra", "precio": 8500}
     ],
     "cinzano": [
         {"nombre": "Medida", "precio": 2000},
@@ -20,7 +20,7 @@
         {"nombre": "Vaso gr", "precio": 4000}
     ],
     "terma": [
-        {"nombre": "Medida", "precio": 1600}
+        {"nombre": "Medida", "precio": 2000}
     ],
     "legui":[
         {"nombre": "Medida", "precio": 2200}
