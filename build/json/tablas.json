@@ -4,7 +4,7 @@
         {"nombre": "Tabla para 2", "precio": 29000},
         {"nombre": "Tabla para 3-4", "precio": 39000},
         {"nombre": "Tabla para 6-7", "precio": 55000},
-        {"tabla": "Tabla para 8-10", "precio": 75000}
+        {"nombre": "Tabla para 8-10", "precio": 75000}
     ],
     "calientes": [
         {"nombre": "Tabla caliente para 1", "precio": 29900},
