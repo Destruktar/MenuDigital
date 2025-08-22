@@ -11,14 +11,17 @@
     "budweiser": [
         {"nombre": "Botella 1 lt", "precio": 5900}
     ],
-    "stella Artois": [
+    "stella artois": [
         {"nombre": "Botella 1 lt", "precio": 8900}
     ],
     "corona": [
         {"nombre": "Corona 330 cc", "precio": 4200}
     ],
-    "santafe" : [
+    "santa fe" : [
         {"nombre": "Lata 473 cc", "precio": 2800},
-        {"nombre": "Botella 1 lt", "precio": 5100}
+        {"nombre": "Botella 1 lt", "precio": 5300}
+    ],
+    "heineken" : [
+        {"nombre": "Heineken 1 lt", "precio": 7900}
     ]
 }

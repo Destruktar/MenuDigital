@@ -1,9 +1,9 @@
 [
-    {"nombre": "2 Tostadas con huevo", "precio": 3000},
-    {"nombre": "2 Tostadas con huevo y palta", "precio": 4000},
-    {"nombre": "Fetas de jamón x3", "precio": 2000},
-    {"nombre": "Fetas de queso x3", "precio": 2000},
-    {"nombre": "Cazuelas de picadas", "precio": 2800, "descripcion": "Jamón, queso, mortadela"},
-    {"nombre": "Empanadas (c/u)", "precio": 1000},
-    {"nombre": "Empanadas (docena)", "precio": 11000}
+    {"nombre": "2 Tostadas con huevo", "precio": 3500},
+    {"nombre": "2 Tostadas con huevo y palta", "precio": 4500},
+    {"nombre": "Fetas de jamón x3", "precio": 2500},
+    {"nombre": "Fetas de queso x3", "precio": 2500},
+    {"nombre": "Cazuelas de picadas", "precio": 3500, "descripcion": "Jamón, queso, mortadela"},
+    {"nombre": "Empanadas (c/u)", "precio": 1250},
+    {"nombre": "Empanadas (docena)", "precio": 13000}
 ]
