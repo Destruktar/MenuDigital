@@ -1,15 +1,15 @@
 [
-    {"nombre": "Helado 1 bocha", "precio": 3200},
-    {"nombre": "Helado 2 bocha", "precio": 4200},
+    {"nombre": "Helado 1 bocha", "precio": 2400},
+    {"nombre": "Helado 2 bocha", "precio": 4000},
     {"nombre": "Durazno al natural", "precio": 3900},
     {"nombre": "Coctel de fruta", "precio": 4200},
-    {"nombre": "Coctel de fruta con helado", "precio": 6200},
-    {"nombre": "Tarta en taza", "precio": 5500},
-    {"nombre": "Afogato", "precio": 4200},
+    {"nombre": "Coctel de fruta con helado", "precio": 6900},
+    {"nombre": "Tarta en taza", "precio": 5900},
+    {"nombre": "Afogato", "precio": 5900},
     {"nombre": "Casata", "precio": 2500},
-    {"nombre": "Copa Magnolia", "precio": 7000},
+    {"nombre": "Copa Magnolia", "precio": 7900},
     {"nombre": "Bombon escocés", "precio": 3000},
     {"nombre": "Batido helado", "precio": 5500},
-    {"nombre": "Budín de pan", "precio": 3500, "descripcion": "Consultar disponibilidad."},
+    {"nombre": "Budín de pan", "precio": 3900, "descripcion": "Consultar disponibilidad."},
     {"nombre": "Flan/postre", "precio": 2900, "descripcion": "Consultar disponibilidad."}
 ]

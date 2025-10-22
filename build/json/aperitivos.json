@@ -1,9 +1,8 @@
 [
-    {"nombre": "2 Tostadas con huevo", "precio": 3500},
-    {"nombre": "2 Tostadas con huevo y palta", "precio": 4500},
+    {"nombre": "2 Tostadas con huevo", "precio": 4900},
+    {"nombre": "2 Tostadas con huevo y palta", "precio": 6500},
     {"nombre": "Fetas de jamón x3", "precio": 2500},
     {"nombre": "Fetas de queso x3", "precio": 2500},
-    {"nombre": "Cazuelas de picadas", "precio": 3500, "descripcion": "Jamón, queso, mortadela"},
     {"nombre": "Empanadas (c/u)", "precio": 1250},
     {"nombre": "Empanadas (docena)", "precio": 13000}
 ]

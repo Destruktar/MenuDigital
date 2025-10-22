@@ -1,8 +1,8 @@
 [
-    {"nombre": "Pizza clasica", "precio": 9900, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, orégano, aceitunas."},
-    {"nombre": "Pizza napolitana", "precio": 13500, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, tomate, orégano, aceitunas."},
-    {"nombre": "Pizza fugazzeta", "precio": 13500, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, cebolla, orégano, aceitunas."},
-    {"nombre": "Pizza de anchoa", "precio": 13500, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, anchoa, orégano, aceitunas."},
-    {"nombre": "Pizza especial", "precio": 13500, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, jamón, huevo, pimiento, orégano, aceitunas."},
-    {"nombre": "Pizza roquefort", "precio": 13500, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, queso roquefort, orégano, aceitunas."}
+    {"nombre": "Pizza clasica", "precio": 12000, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, orégano, aceitunas."},
+    {"nombre": "Pizza napolitana", "precio": 15000, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, tomate, orégano, aceitunas."},
+    {"nombre": "Pizza fugazzeta", "precio": 15000, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, cebolla, orégano, aceitunas."},
+    {"nombre": "Pizza de anchoa", "precio": 15000, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, anchoa, orégano, aceitunas."},
+    {"nombre": "Pizza especial", "precio": 15000, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, jamón, huevo, pimiento, orégano, aceitunas."},
+    {"nombre": "Pizza roquefort", "precio": 15000, "descripcion": "Salsa de tomate con cebolla, queso/muzzarella, queso roquefort, orégano, aceitunas."}
 ]
