@@ -22,7 +22,7 @@
     ],
     "santa fe" : [
         {"nombre": "Lata 473 cc", "precio": 3500},
-        {"nombre": "Botella 1 lt", "precio": 6500}
+        {"nombre": "Botella 1 lt", "precio": 7500}
     ],
     "heineken" : [
         {"nombre": "Heineken 1 lt", "precio": 11000}
