@@ -17,7 +17,7 @@
     {"nombre": "Bife de lomo con papas fritas", "precio": 17000},
     {"nombre": "Lomo completo al plato (solo)", "precio": 15500, "descripcion": "Bife de lomo con feta de jamón y queso + huevo."},
     {"nombre": "Lomo completo al plato con ensalada", "precio": 17500, "descripcion": "Bife de lomo con feta de jamón y queso + huevo + ensalada de lechuga tomate y huevo."},
-    {"nombre": "Lomo completo al plato con papas fritas", "precio": 18500, "descripcion": "Bife de lomo con feta de jamón y queso + huevo + papas fritas."},
+    {"nombre": "Lomo completo al plato con papas fritas", "precio": 18000, "descripcion": "Bife de lomo con feta de jamón y queso + huevo + papas fritas."},
     {"nombre": "Medallones de pollo x2", "precio": 10000},
     {"nombre": "Medallones de pollo x2 con ensalada", "precio": 13000, "descripcion": "Ensalada de lechuga, tomate y huevo"},
     {"nombre": "Medallones de pollo x2 con papas fritas", "precio": 14000},
