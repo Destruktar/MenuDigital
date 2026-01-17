@@ -1,14 +1,14 @@
 [
-    {"nombre": "Mogul", "precio": 9500, "descripcion": "Frutos rojos, Smirnoff, Red bull, Sprite, gomitas."},
-    {"nombre": "Martini", "precio": 13500, "descripcion": "Ginebra, vermut"},
-    {"nombre": "Oceano blue", "precio": 9500, "descripcion": "Blue curacao, Vodka, 7up, gomitas."},
-    {"nombre": "Rainbow Drink", "precio": 9500, "descripcion": "Granadina, jugo de naranja, Blue curacao."},
-    {"nombre": "Playa", "precio": 9500, "descripcion": "Granadina, jugo de naranja, gomitas."},
-    {"nombre": "Indigo", "precio": 9500, "descripcion": "Granadina, Vodka, limón, Blue curacao."},
-    {"nombre": "Tropical", "precio": 9500, "descripcion": "Ron, jugo de naranja, 7up."},
-    {"nombre": "Mojito", "precio": 9500, "descripcion": "Ron blanco, 7up, limón, azúcar, menta."},
-    {"nombre": "Daiquiri limón", "precio": 9500, "descripcion": "Ron, limón, azúcar."},
-    {"nombre": "Daiquiri frutilla", "precio": 9500, "descripcion": "Ron, frutilla, azúcar."},
-    {"nombre": "Gin Tonic", "precio": 9500, "descripcion": "Gin, agua tónica, limón."},
-    {"nombre": "Negroni", "precio": 9500, "descripcion": "Campari, Ginebra, cinzano, naranja."}
+    {"nombre": "Mogul", "precio": 10900, "descripcion": "Frutos rojos, Smirnoff, Red bull, Sprite, gomitas."},
+    {"nombre": "Martini", "precio": 10900, "descripcion": "Ginebra, vermut"},
+    {"nombre": "Oceano blue", "precio": 10900, "descripcion": "Blue curacao, Vodka, 7up, gomitas."},
+    {"nombre": "Rainbow Drink", "precio": 10900, "descripcion": "Granadina, jugo de naranja, Blue curacao."},
+    {"nombre": "Playa", "precio": 10900, "descripcion": "Granadina, jugo de naranja, gomitas."},
+    {"nombre": "Indigo", "precio": 10900, "descripcion": "Granadina, Vodka, limón, Blue curacao."},
+    {"nombre": "Tropical", "precio": 10900, "descripcion": "Ron, jugo de naranja, 7up."},
+    {"nombre": "Mojito", "precio": 10900, "descripcion": "Ron blanco, 7up, limón, azúcar, menta."},
+    {"nombre": "Daiquiri limón", "precio": 10900, "descripcion": "Ron, limón, azúcar."},
+    {"nombre": "Daiquiri frutilla", "precio": 10900, "descripcion": "Ron, frutilla, azúcar."},
+    {"nombre": "Gin Tonic", "precio": 10900, "descripcion": "Gin, agua tónica, limón."},
+    {"nombre": "Negroni", "precio": 10900, "descripcion": "Campari, Ginebra, cinzano, naranja."}
 ]

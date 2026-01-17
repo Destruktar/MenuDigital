@@ -1,7 +1,7 @@
 [
-    {"nombre": "Mojito", "precio": 8000, "descripcion": "7up, limón, azúcar, menta."},
-    {"nombre": "Ponche", "precio": 8000, "descripcion": "7up, frutos rojos, Gatorade."},
-    {"nombre": "Playa", "precio": 8000, "descripcion": "Granadina, jugo de naranja, 7up."},
-    {"nombre": "Mogul", "precio": 8000, "descripcion": "Frutos rojos, Red bull (opcional), Sprite, gomitas."},
-    {"nombre": "Daiquiri", "precio": 8000, "descripcion": "Frutilla, agua, limón"}
+    {"nombre": "Mojito", "precio": 9000, "descripcion": "7up, limón, azúcar, menta."},
+    {"nombre": "Ponche", "precio": 9000, "descripcion": "7up, frutos rojos, Gatorade."},
+    {"nombre": "Playa", "precio": 9000, "descripcion": "Granadina, jugo de naranja, 7up."},
+    {"nombre": "Mogul", "precio": 9000, "descripcion": "Frutos rojos, Red bull (opcional), Sprite, gomitas."},
+    {"nombre": "Daiquiri", "precio": 9000, "descripcion": "Frutilla, agua, limón"}
 ]

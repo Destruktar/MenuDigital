@@ -1,22 +1,22 @@
 {
     "Aguas": [
 
-        {"nombre": "Agua 500 cc", "precio": 2500},
-        {"nombre": "Agua 1.5 lt", "precio": 3000},
-        {"nombre": "Agua 2 lt", "precio": 4000},
-        {"nombre": "Soda 500 cc", "precio": 2000},
+        {"nombre": "Agua 500 cc", "precio": 2800},
+        {"nombre": "Agua 1.5 lt", "precio": 4000},
+        {"nombre": "Agua 2 lt", "precio": 4500},
+        {"nombre": "Soda 500 cc", "precio": 2500},
         {"nombre": "Soda sifón", "precio": 2500}
     ],
     "Aguas-saborizadas": [
-        {"nombre": "Agua saborizada 500 cc", "precio": 3000, "descripcion": "Consultar variedad"},
-        {"nombre": "Agua saborizada 1.5 lt levite", "precio": 5500}
+        {"nombre": "Agua saborizada 500 cc", "precio": 3400, "descripcion": "Consultar variedad"},
+        {"nombre": "Agua saborizada 1.5 lt", "precio": 6200}
     ],
     "gaseosas": [
-        {"nombre": "Gaseosa 500 cc", "precio": 3500},
-        {"nombre": "Gaseosa 1.5 lt", "precio": 5900},
-        {"nombre": "Gaseosa vidrio 1.25 lt", "precio": 6900},
-        {"nombre": "Gaseosa lata", "precio": 2900},
-        {"nombre": "Paso de los toros lata 250cc", "precio": 2500}
+        {"nombre": "Gaseosa 500 cc", "precio": 3900},
+        {"nombre": "Gaseosa 1.5 lt", "precio": 6700},
+        {"nombre": "Gaseosa vidrio 1.25 lt", "precio": 7800},
+        {"nombre": "Gaseosa lata", "precio": 3300},
+        {"nombre": "Paso de los toros lata 250cc", "precio": 2800}
     ]
 
 }

@@ -1,9 +1,9 @@
 [
-    {"nombre": "Jugo de naranja grande", "precio": 4900},
-    {"nombre": "Jugo de naranja chico", "precio": 4000},
-    {"nombre": "Licuado de banana", "precio": 4900},
-    {"nombre": "Licuado de frutilla", "precio": 5500},
-    {"nombre": "Licuado de durazno", "precio": 4900},
-    {"nombre": "Licuado vaso chico", "precio": 4000},
-    {"nombre": "Batido", "precio": 5500, "descripcion": "leche + helado, consultar variedad."}
+    {"nombre": "Jugo de naranja grande", "precio": 5500},
+    {"nombre": "Jugo de naranja chico", "precio": 4500},
+    {"nombre": "Licuado de banana", "precio": 5500},
+    {"nombre": "Licuado de frutilla", "precio": 6200},
+    {"nombre": "Licuado de durazno", "precio": 5500},
+    {"nombre": "Licuado vaso chico", "precio": 4500},
+    {"nombre": "Batido", "precio": 6200, "descripcion": "leche + helado, consultar variedad."}
 ]
