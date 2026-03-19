@@ -1,4 +1,6 @@
 import { JsonFile } from "./jsonFile.js";
+import {db} from "./firebase.js";
+import {collection, addDoc, getDocs, deleteDoc, updateDoc, doc} from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
 const categorias = [
     new JsonFile('cafeteria', '/build/json/cafeteria.json'),
