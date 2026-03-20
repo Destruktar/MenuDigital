@@ -2,10 +2,10 @@
     "quilmes": [
         {"nombre": "Lata 473 cc", "precio": 4400 },
         {"nombre": "Botella 1 lt", "precio": 8400},
-        {"nombre": "Lata 0 alcohol", "precio": 3900}
+        {"nombre": "Lata 0 alcohol", "precio": 4400}
     ],
     "brahama": [
-        {"nombre": "Lata 473 cc", "precio": 3900},
+        {"nombre": "Lata 473 cc", "precio": 4400},
         {"nombre": "Botella 1 lt", "precio": 8400}
     ],
     "budweiser": [

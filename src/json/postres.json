@@ -6,5 +6,7 @@
     {"nombre": "Cóctel con helado", "precio": 7800},
     {"nombre": "Batido helado", "precio": 6200},
     {"nombre": "Budín de pan", "precio": 4500, "descripcion": "Consultar disponibilidad."},
-    {"nombre": "Flan/postre", "precio": 3500, "descripcion": "Consultar disponibilidad."}
+    {"nombre": "Flan/postre", "precio": 3500, "descripcion": "Consultar disponibilidad."},
+    {"nombre": "Copa Magnolia", "precio": 8900},
+    {"nombre": "Afogato", "precio": 5500}
 ]

@@ -2,7 +2,5 @@
     {"nombre": "2 Tostadas con huevo", "precio": 6600},
     {"nombre": "2 Tostadas con huevo y palta", "precio": 8400},
     {"nombre": "Fetas de jamón x3", "precio": 2800},
-    {"nombre": "Fetas de queso x3", "precio": 2800},
-    {"nombre": "Empanadas (c/u)", "precio": 1800},
-    {"nombre": "Empanadas (docena)", "precio": 19000}
+    {"nombre": "Fetas de queso x3", "precio": 2800}
 ]

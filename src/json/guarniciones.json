@@ -1,0 +1,6 @@
+[
+    {"nombre": "Papas fritas", "precio": 7800},
+    {"nombre": "Ensalada", "precio": 6200, "descripcion": "Lechuga, tomate y huevo"},
+    {"nombre": "Huevos fritos/revueltos x2", "precio": 5100},
+    {"nombre": "Puré (Consultar disponibilidad", "precio": 5100}
+]

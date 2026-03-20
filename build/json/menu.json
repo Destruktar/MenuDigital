@@ -18,12 +18,9 @@
     {"nombre": "Lomo completo al plato (solo)", "precio": 17400, "descripcion": "Bife de lomo con feta de jamón y queso + huevo."},
     {"nombre": "Lomo completo al plato con ensalada", "precio": 19600, "descripcion": "Bife de lomo con feta de jamón y queso + huevo + ensalada de lechuga tomate y huevo."},
     {"nombre": "Lomo completo al plato con papas fritas", "precio": 20200, "descripcion": "Bife de lomo con feta de jamón y queso + huevo + papas fritas."},
-    {"nombre": "Medallones de pollo x2", "precio": 11200},
+    {"nombre": "Medallones de pollo o pescado x2", "precio": 11200},
     {"nombre": "Medallones de pollo x2 con ensalada", "precio": 14600, "descripcion": "Ensalada de lechuga, tomate y huevo"},
     {"nombre": "Medallones de pollo x2 con papas fritas", "precio": 15700},
-    {"nombre": "Ñoquis", "precio": 15900},
-    {"nombre": "Ravioles", "precio": 16900},
-    {"nombre": "Sorrentino", "precio": 17900},
     {"nombre": "Suprema de pollo (sola)", "precio": 10700},
     {"nombre": "Suprema de pollo con ensalada", "precio": 14600, "descripcion": "Ensalada de lechuga, tomate y huevo"},
     {"nombre": "Suprema de pollo con papas fritas", "precio": 15700},
@@ -36,9 +33,6 @@
     {"nombre": "Hamburguesa de carne x2 (sola)", "precio": 10700},
     {"nombre": "Hamburguesa con ensalada", "precio": 12400, "descripcion": "Ensalada de lechuga, tomate y huevo"},
     {"nombre": "Hamburguesa con papas fritas", "precio": 15200},
-    {"nombre": "Patitas de pollo x8 con papas", "precio": 14000},
-    {"nombre": "Papas fritas", "precio": 7800},
-    {"nombre": "Ensalada", "precio": 6200, "descripcion": "Lechuga, tomate y huevo"},
-    {"nombre": "Huevos fritos/revueltos x2", "precio": 5100},
-    {"nombre": "Puré (Consultar disponibilidad", "precio": 5100}
+    {"nombre": "Patitas de pollo x8 con papas", "precio": 14000}
+
 ]
