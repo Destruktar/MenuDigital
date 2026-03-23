@@ -6,6 +6,7 @@ No es el mejor proyecto del mundo ni el más complicado pero por algo se empieza
 - HTML5
 - CSS3 (con Flexbox y Grid)
 - SASS
+- JavaScript
 - Sudor y Lágrimas
 
 ## 📖 Qué hice / Aprendí
