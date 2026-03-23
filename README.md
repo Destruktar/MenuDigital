@@ -13,6 +13,7 @@ No es el mejor proyecto del mundo ni el más complicado pero por algo se empieza
   - Grid
   - Flexbox
   - Sass
+  -JavaScript
   - Maquetado
 
 ## 💡 Retos que enfrenté

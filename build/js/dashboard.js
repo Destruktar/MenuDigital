@@ -75,19 +75,38 @@ document.querySelector('#addProduct').addEventListener("click", (event) => {
     
     event.preventDefault();
 
-    const newProduct = {
-        name: document.querySelector('#nombrePlatillo').value,
-        price: document.querySelector('#precioPlatillo').value,
-        category: document.querySelector('#categoriaPlatillo').value
+    const name = document.querySelector('#nombrePlatillo').value.trim();
+    const price = document.querySelector('#precioPlatillo').value.trim();
+    const category = document.querySelector('#categoriaPlatillo').value;
+
+    const description = document.querySelector('#descripcionPlatillo').value.trim();
+
+    if(!name || !price || !category){
+        alert("El plato debe tener Nombre, Precio y Categoria");
+        return;
     }
 
-    const description = document.querySelector('#descripcionPlatillo').value;
+    if(isNaN(price) || Number(price) <= 0){
+        alert("El precio debe ser un número válido mayor que 0");
+        return;
+    }
+
+
+    const newProduct = {
+        name: name,
+        price: Number(price),
+        category: category
+    }
+
 
     if(description){
         newProduct.description = description;
     }
 
     addProduct(newProduct);
+
+    //Limpiar el formulario
+    document.querySelector('#platilloForm').reset();
 });
 
 function renderTable(products){
@@ -104,11 +123,38 @@ function renderTable(products){
             <td>${p.price}</td>
             <td>${p.category}</td>
             <td>${p.description || ""}</td>
-
+            <td>
+                <i class="fa-regular fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+            </td>
         `;
 
         tbody.appendChild(tr);
     });
 }
+
+function sortTable(field){
+    const sorted = [...currentProducts].sort((a,b) =>{
+        if(field == "price"){
+            return a.price - b.price
+        }
+
+        return a[field].localeCompare(b[field]);
+    });
+
+    renderTable(sorted);
+}
+
+document.querySelector('#sortName').addEventListener('click', () => {
+    sortTable('name');
+});
+
+document.querySelector('#sortPrice').addEventListener('click', () => {
+    sortTable('price');
+});
+
+document.querySelector('#sortCategory').addEventListener('click', () => {
+    sortTable('category');
+});
 
 loadMenuList();
