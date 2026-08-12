@@ -68,6 +68,14 @@ async function loadMenuList() {
     renderTable(products);
 }
 
+//Editar Plato
+
+//TODO: Agregar funcion para editar platos añadidos
+
+//Eliminar Plato
+
+//TODO: Agregar funcion para elminiar los platos por ID
+
 
 //Boton Agregar Plato
 
@@ -80,6 +88,7 @@ document.querySelector('#addProduct').addEventListener("click", (event) => {
     const category = document.querySelector('#categoriaPlatillo').value;
 
     const description = document.querySelector('#descripcionPlatillo').value.trim();
+    const subcat = document.querySelector('#subcatPlatillo').value.trim();
 
     if(!name || !price || !category){
         alert("El plato debe tener Nombre, Precio y Categoria");
@@ -103,6 +112,10 @@ document.querySelector('#addProduct').addEventListener("click", (event) => {
         newProduct.description = description;
     }
 
+    if(subcat){
+        newProduct.subcat = subcat;
+    }
+
     addProduct(newProduct);
 
     //Limpiar el formulario
@@ -120,9 +133,10 @@ function renderTable(products){
 
         tr.innerHTML = `
             <td>${p.name}</td>
-            <td>${p.price}</td>
-            <td>${p.category}</td>
             <td>${p.description || ""}</td>
+            <td>${p.category}</td>
+            <td>${p.subcat || ""}</td>
+            <td>${p.price}</td>
             <td>
                 <i class="fa-regular fa-pen-to-square"></i>
                 <i class="fa-regular fa-trash-can"></i>
