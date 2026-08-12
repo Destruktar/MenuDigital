@@ -1,10 +1,10 @@
 [
-    {"nombre": "Hamburguesa con papas de copetín", "precio": 11900},
+    {"nombre": "Hamburguesa con papas de copetín", "precio": 12900},
     {"nombre": "Hamburguesa con papas fritas", "precio": 15900},
     {"nombre": "Hamburguesa doble con papas de copetín", "precio": 15900},
     {"nombre": "Hamburguesa doble con papas fritas", "precio": 16900},
-    {"nombre": "Sandwich de milanesa con papas de copetín", "precio": 14600},
-    {"nombre": "Sandwich de milanesa con papas fritas", "precio": 17400},
-    {"nombre": "Sandwich de lomo con papas de copetín", "precio": 19000},
+    {"nombre": "Sandwich de milanesa con papas de copetín", "precio": 14900},
+    {"nombre": "Sandwich de milanesa con papas fritas", "precio": 17900},
+    {"nombre": "Sandwich de lomo con papas de copetín", "precio": 21000},
     {"nombre": "Sandwich de lomo con papas fritas", "precio": 24500}
 ]

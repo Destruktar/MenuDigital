@@ -1,5 +1,11 @@
 [
-    {"nombre": "Ñoquis", "precio": 15900},
-    {"nombre": "Ravioles", "precio": 16900},
-    {"nombre": "Sorrentino", "precio": 17900}
+    {"nombre": "Ñoquis con crema", "precio": 14900},
+    {"nombre": "Ñoquis con salsa Bolognesa", "precio": 15900},
+    {"nombre": "Ñoquis con salsa Lomo", "precio": 19900},
+    {"nombre": "Ravioles con crema", "precio": 15900},
+    {"nombre": "Ravioles con salsa Bolognesa", "precio": 16900},
+    {"nombre": "Ravioles con salsa Lomo", "precio": 20900},
+    {"nombre": "Sorrentino con crema", "precio": 16900},
+    {"nombre": "Sorrentino con salsa Bolognesa", "precio": 17900},
+    {"nombre": "Sorrentino con salsa Lomo", "precio": 21900}
 ]
