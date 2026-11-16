@@ -1,11 +1,12 @@
 [
-    {"nombre": "Jugo de naranja grande", "precio": 5500},
+    {"nombre": "Jugo de naranja grande", "precio": 6000},
     {"nombre": "Jugo de naranja mediano", "precio": 4500},
-    {"nombre": "Jugo de naranja chico", "precio": 2500},
-    {"nombre": "Licuado de banana", "precio": 5900},
-    {"nombre": "Licuado de frutilla", "precio": 6900},
-    {"nombre": "Licuado de durazno", "precio": 5900},
-    {"nombre": "Licuado vaso chico", "precio": 4900},
-    {"nombre": "Batido", "precio": 6900},
-    {"nombre": "Smoothie", "precio": 6500}
+    {"nombre": "Jugo de naranja chico", "precio": 3000},
+    {"nombre": "Licuado de banana", "precio": 6500},
+    {"nombre": "Licuado de frutilla", "precio": 7500},
+    {"nombre": "Licuado de durazno", "precio": 6500},
+    {"nombre": "Licuado vaso chico", "precio": 5900},
+    {"nombre": "Batido", "precio": 7500},
+    {"nombre": "Smoothie", "precio": 7500},
+    {"nombre": "Limonada Natural", "precio": 9000}
 ]

@@ -1,14 +1,14 @@
 {
     "mixtas": [
-        {"nombre": "Tabla para 1", "precio": 25900},
-        {"nombre": "Tabla para 2", "precio": 39900},
-        {"nombre": "Tabla para 3-4", "precio": 55900},
-        {"nombre": "Tabla para 6-7", "precio": 78900}
+        {"nombre": "Tabla para 1", "precio": 29900},
+        {"nombre": "Tabla para 2", "precio": 44900},
+        {"nombre": "Tabla para 3-4", "precio": 65900},
+        {"nombre": "Tabla para 6-7", "precio": 81900}
     ],
     "calientes": [
-        {"nombre": "Tabla caliente para 1", "precio": 34900},
-        {"nombre": "Tabla caliente para 2", "precio": 49900},
-        {"nombre": "Tabla caliente para 3-4", "precio": 61900},
-        {"nombre": "Tabla caliente para 6-7", "precio": 84900}
+        {"nombre": "Tabla caliente para 1", "precio": 39900},
+        {"nombre": "Tabla caliente para 2", "precio": 59900},
+        {"nombre": "Tabla caliente para 3-4", "precio": 74900},
+        {"nombre": "Tabla caliente para 6-7", "precio": 94900}
     ]
 }

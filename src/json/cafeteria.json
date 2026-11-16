@@ -8,8 +8,8 @@
         {"nombre": "Infusión con leche", "precio": 3000},
         {"nombre": "Capuchino chico", "precio": 3700},
         {"nombre": "Capuchino grande", "precio": 4500},
-        {"nombre": "Medailuna", "precio": 1100},
-        {"nombre": "Mafalda", "precio": 1700},
+        {"nombre": "Medialuna", "precio": 1100},
+        {"nombre": "Mafalda", "precio": 2000},
         {"nombre": "Criollo", "precio": 1000},
-        {"nombre": "Tostadas x2", "precio": 1200}
+        {"nombre": "Tostadas x2", "precio": 1300}
 ]

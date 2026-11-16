@@ -1,4 +1,5 @@
 [
-    {"nombre": "Tradicional", "precio": 8000, "descripcion": "Café con leche + 2 tostadas o 2 criollos + 2 cazuelas a elección (mermelada, manteca, dulce de leche, queso crema) + jugo de naranja"},
-    {"nombre": "Americano", "precio": 14000, "descripcion": "Café con leche + 3 tostadas o 2 criollos + 1 cazuela con jamón + 1 cazuela con queso + jugo de naranja + cazuela de palta + yogurt"}
+    {"nombre": "Tradicional", "precio": 8500, "descripcion": "Café con leche + 2 tostadas o 2 criollos + 2 cazuelas a elección (mermelada, manteca, dulce de leche, queso crema) + jugo de naranja"},
+    {"nombre": "Americano", "precio": 14000, "descripcion": "Café con leche + 3 tostadas o 2 criollos + 1 cazuela con jamón + 1 cazuela con queso + jugo de naranja + cazuela de palta + yogurt"},
+    {"nombre": "Sandwich + Café", "precio": 9900, "descripcion": "Café con leche + Sandwich de mortadela o milán"}
 ]

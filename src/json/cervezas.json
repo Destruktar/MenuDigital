@@ -1,18 +1,18 @@
 {
     "quilmes": [
-        {"nombre": "Lata 473 cc", "precio": 4600 },
-        {"nombre": "Botella 1 lt", "precio": 8500},
+        {"nombre": "Lata 473 cc", "precio": 4900 },
+        {"nombre": "Botella 1 lt", "precio": 8900},
         {"nombre": "Lata 0 alcohol", "precio": 4500}
     ],
     "brahama": [
-        {"nombre": "Lata 473 cc", "precio": 4500},
+        {"nombre": "Lata 473 cc", "precio": 4900},
         {"nombre": "Botella 1 lt", "precio": 8900}
     ],
     "budweiser": [
-        {"nombre": "Botella 1 lt", "precio": 9600}
+        {"nombre": "Botella 1 lt", "precio": 9900}
     ],
     "imperial": [
-        {"nombre": "Lata 473 cc", "precio": 4600}
+        {"nombre": "Lata 473 cc", "precio": 4900}
     ],
     "stella artois": [
         {"nombre": "Botella 1 lt", "precio": 12900}
@@ -21,7 +21,7 @@
         {"nombre": "Corona 330 cc", "precio": 5600}
     ],
     "santa fe" : [
-        {"nombre": "Lata 473 cc", "precio": 4000},
+        {"nombre": "Lata 473 cc", "precio": 4900},
         {"nombre": "Botella 1 lt", "precio": 8900}
     ],
     "heineken" : [

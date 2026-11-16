@@ -4,6 +4,6 @@
     {"nombre": "Milanesas con papas fritas", "precio": 13400},
     {"nombre": "Patitas x8", "precio": 8000},
     {"nombre": "Hamburguesa", "precio": 10100, "descripcion": "Pan, Hamburguesa, queso."},
-    {"nombre": "Papas fritas (canasto)", "precio": 5500},
+    {"nombre": "Papas fritas (canasto)", "precio": 6500},
     {"nombre": "Patitas x8 + papas fritas (canasto)", "precio": 11500}
 ]
